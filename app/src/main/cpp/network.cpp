@@ -9,6 +9,11 @@
 
 #define TAG "abc"
 
+
+/*
+ * Copy from dns64.c
+ * Refer https://android.googlesource.com/platform/external/android-clat/+/master/dns64.c
+ */
 extern "C"
 JNIEXPORT jint JNICALL
 Java_net_cmoaciopm_test_ipv6test_MainActivity_nativePrintIPv6Prefix(JNIEnv *env,
